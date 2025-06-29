@@ -20,7 +20,7 @@
 package utils
 
 import (
-	"github.com/go-viper/mapstructure/v2"
+	"github.com/mitchellh/mapstructure"
 	"golang.org/x/exp/constraints"
 	"strconv"
 )
