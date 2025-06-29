@@ -1,25 +1,25 @@
 module github.com/IrineSistiana/mosdns/v5
 
-go 1.24.2
+go 1.24.4
 
 require (
 	github.com/IrineSistiana/go-bytes-pool v0.0.0-20230918115058-c72bd9761c57
-	github.com/go-chi/chi/v5 v5.2.1
-	github.com/go-viper/mapstructure/v2 v2.2.1
+	github.com/go-chi/chi/v5 v5.2.2
+	github.com/go-viper/mapstructure/v2 v2.3.0
 	github.com/google/nftables v0.3.0
 	github.com/kardianos/service v1.2.2
 	github.com/klauspost/compress v1.18.0
 	github.com/miekg/dns v1.1.66
 	github.com/nadoo/ipset v0.5.0
 	github.com/prometheus/client_golang v1.22.0
-	github.com/quic-go/quic-go v0.52.0
+	github.com/quic-go/quic-go v0.53.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.20.1
 	github.com/stretchr/testify v1.10.0
 	github.com/vishvananda/netlink v1.3.0
 	go.uber.org/zap v1.27.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
-	golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476
+	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b
 	golang.org/x/net v0.41.0
 	golang.org/x/sync v0.15.0
 	golang.org/x/sys v0.33.0
@@ -42,7 +42,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.23.4 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.64.0 // indirect
+	github.com/prometheus/common v0.65.0 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/sagikazarmark/locafero v0.9.0 // indirect
